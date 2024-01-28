@@ -62,7 +62,7 @@ Jairon José  - jairon.santos@arapiraca.ufal <br>
 
 Arthur Vieira - arthur.vieira@arapiraca.ufal.br <br>
 
-Adhan Lopes -  <br>
+Adhan Lopes - adhan.lopes@arapiraca.ufal.br <br>
 
 Luis Henrique - luis.amorim@arapiraca.ufal.br <br>
 
