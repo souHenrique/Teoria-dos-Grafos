@@ -13,10 +13,6 @@ Nesta seção, serão fornecidas orientações sobre como configurar este projet
 
 1. Pressione __<> Código__ e, em seguida, clone este repositório (caso possua o GIT) ou baixe o repositório como um arquivo ZIP*.
 
-<p align="center">
-    <img src="./imgs/insta.png">
-</p>
-
 __*:__ Descompacte a pasta no seu dispositivo.
 
 2. O projeto agora está pronto para uso.
@@ -38,10 +34,6 @@ __VS Code__
 
 5. O resultado será exibido após a conclusão do passo anterior.
 
-<p align="center">
-    <img src="./imgs/vscode.png">
-</p>
-
 __Terminal__
 
 1. Abra o Terminal/PowerShell/Command Prompt.
@@ -52,9 +44,6 @@ __Terminal__
 
 4. O resultado será apresentado após a execução do passo anterior.
 
-<p align="center">
-    <img src="./imgs/term.png">
-</p>
 
 ---
 ### Licença
