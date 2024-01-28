@@ -64,7 +64,7 @@ Arthur Vieira - arthur.vieira@arapiraca.ufal.br <br>
 
 Adhan Lopes -  <br>
 
-Luis Henrique - <br>
+Luis Henrique - luis.amorim@arapiraca.ufal.br <br>
 
 ---
 ### Especificações de Hardware Recomendadas
