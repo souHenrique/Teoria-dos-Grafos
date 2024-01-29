@@ -1,6 +1,6 @@
-# VRP - O Desafio do Viajante 
+# VRP - O Problema do Caixeiro Viajante (PCV)
 
-O __Desafio do Viajante__ (__DV__) é um enigma que busca determinar a rota mais eficiente para percorrer uma série de metrópoles (visitando cada uma exatamente uma vez) e regressar à cidade de origem.[¹](https://pt.wikipedia.org/wiki/Desafio_do_viajante_comerciante)
+O Problema do Caixeiro Viajante (PCV) é um enigma que busca determinar a rota mais eficiente para percorrer uma série de metrópoles (visitando cada uma exatamente uma vez) e regressar à cidade de origem.
 
 Neste projeto, realizaremos uma simulação deste desafio utilizando conjuntos de dados como __ATT48__, __DANTZIG42__, __FRI26__, __GR17__ e __P01__, obtidos em [Dados de VRP para o Problema do Viajante Comerciante](https://people.sc.fsu.edu/~jburkardt/datasets/tsp/tsp.html?authuser=2).
 
