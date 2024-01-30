@@ -69,18 +69,9 @@ Luis Henrique - luis.amorim@arapiraca.ufal.br <br>
 ---
 ### Especificações de Hardware Recomendadas
 
-- Processador Intel Core i3-6006U 2.0GHz, com 8GB de memória DDR4 (2x4 GB, 1333MHz), HD 500GB e sistema operacional Windows 10 Home Single Language;
+- Processador AMD FX-4300 3.8GHz, com 8GB de memória DDR4 (2x4 GB, 1333MHz), HD 1TB e sistema operacional Windows 10 Home Single Language;
 
 - Processador Intel Core i5-9300H 2.4GHz~4.2GHz, com 16GB de memória DDR4 (2x8 GB, 2666MHz), 256GB SSD NVMe e sistema operacional Windows 11.
-
-__OBS:__ Para realizar simulações com conjuntos de dados que contenham uma grande quantidade de informações, é recomendável um hardware mais potente, como o SGI Rackable Standard-Depth Servers, com 56 núcleos em 2 soquetes de 2,00 GHz Intel (R) Xeon (R) CPU E5-2660 v4, 1352 MHz, 256 GB de memória DDR3 (32 × 8 GB) e sistema operacional Linux.
-
----
-### Software Necessário
-
-O projeto é compatível com os sistemas operacionais Windows/Linux e requer a instalação do Python na máquina.
-
-__Não obrigatório:__ Git, VS Code.
 
 ---
 ### Notas Adicionais
