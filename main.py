@@ -3,6 +3,7 @@ import conversor
 from code import prim
 from code import bf
 from code import christofides
+from code import dijkstra
 
 def list_files_in_directory(directory):
     files = list(directory.glob('*'))
