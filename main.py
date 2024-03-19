@@ -2,6 +2,7 @@ from pathlib import Path
 import conversor
 from code import prim
 from code import bf
+from code import christofides
 
 def list_files_in_directory(directory):
     files = list(directory.glob('*'))
