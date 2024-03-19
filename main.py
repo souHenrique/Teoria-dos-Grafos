@@ -1,9 +1,16 @@
 from pathlib import Path
+import sys
+
+import bf
+
+import prim
+
+import christofides
+
+import dijkstra
+
 import conversor
-from code import prim
-from code import bf
-from code import christofides
-from code import dijkstra
+
 
 def list_files_in_directory(directory):
     files = list(directory.glob('*'))
@@ -46,15 +53,15 @@ def main():
         print(40*'=')
 
         if alg_choice == '1':
-            prim(graph)
+            prim.prim(graph)
         elif alg_choice == '2':
-            pass
+            start = 1
+            dijkstra(graph, start, file_index)
         elif alg_choice == '3':
-            pass
+            christofides.algoritmo_christofides(graph)
         elif alg_choice == '4':
             start = 1
-            tour, peso_aprox, dist_esp, margem = bf.approximate_tsp(graph, start, file_index)
-            print(f"Tour: {tour}, Peso total: {peso_aprox}, Valor esperado: {dist_esp}, Margem de erro: {margem:.3f}%")
+            bf(graph, start, file_index)
         else:
             print("Escolha de algoritmo inválida.")
     else:

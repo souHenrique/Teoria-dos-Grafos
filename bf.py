@@ -15,7 +15,7 @@ def approximate_tsp(graph, start, file_index):
     while len(tour) < len(graph):
         min_distance = float('inf')
         next_node = None
-        for neighbor, weight in graph[current_node].items():
+        for neighbor, weight in enumerate(graph[current_node], start=1):
             if neighbor not in tour and neighbor != start and weight < min_distance:
                 min_distance = weight
                 next_node = neighbor
@@ -27,8 +27,6 @@ def approximate_tsp(graph, start, file_index):
     total_weight += graph[current_node][start]
     tour.append(start)
     optimal_length = optimal_tour_length.get(file_index, None)
-    if optimal_length is not None:
-        percentage_difference = abs(total_weight - optimal_length) / optimal_length * 100
-        return tour, total_weight, percentage_difference, optimal_length
-    else:
-        return tour, total_weight, None, None
+    percentage_difference = abs(total_weight - optimal_length) / optimal_length * 100
+    
+    print(f"Tour: {tour}\nPeso total: {total_weight}\nValor esperado: {optimal_length}\nMargem de erro: {percentage_difference:.3f}%")
