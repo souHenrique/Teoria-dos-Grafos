@@ -56,12 +56,12 @@ def main():
             prim.prim(graph)
         elif alg_choice == '2':
             start = 1
-            dijkstra(graph, start, file_index)
+            dijkstra.dijkstra(graph, start, file_index)
         elif alg_choice == '3':
             christofides.algoritmo_christofides(graph)
         elif alg_choice == '4':
             start = 1
-            bf(graph, start, file_index)
+            bf.approximate_tsp(graph, start, file_index)
         else:
             print("Escolha de algoritmo inválida.")
     else:
